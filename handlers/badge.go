@@ -14,7 +14,7 @@ const (
 
 	queryUnique = "unique"
 
-	badgeTitle = "view count"
+	badgeTitle = "独立访客数"
 	badgeColor = "000000"
 
 	contentTypeSVG      = "image/svg+xml;charset=utf-8"

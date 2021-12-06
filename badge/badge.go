@@ -29,7 +29,7 @@ var badgeSVG = trim(`
 	</g>
 	<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
 		<text aria-hidden="true" x="355" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="{{titleTextLength}}">{{title}}</text>
-		<text x="355" y="140" transform="scale(.1)" fill="#fff" textLength="590">{{title}}</text>
+		<text x="355" y="140" transform="scale(.1)" fill="#fff" textLength="{{titleTextLength}}">{{title}}</text>
 		<text aria-hidden="true" x="835" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="{{valueTextLength}}">{{value}}</text>
 		<text x="835" y="140" transform="scale(.1)" fill="#fff" textLength="{{valueTextLength}}">{{value}}</text>
 	</g>
@@ -38,7 +38,7 @@ var badgeSVG = trim(`
 
 const (
 	rectWidth       = "100"
-	titleTextLength = "590"
+	titleTextLength = "5em"
 )
 
 var (

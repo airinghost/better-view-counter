@@ -3,7 +3,6 @@ package main
 import (
 	"flag"
 	"log"
-	"strconv"
 	"time"
 
 	"viewcounter/db"
@@ -43,9 +42,13 @@ func main() {
 		Duration: time.Minute,
 	}))
 
+	app.Get("/", func(c *fiber.Ctx) error {
+		return c.SendString("Visit: https://github.com/airinghost/better-view-counter")
+	})
+
 	// Register handler
 	app.Get("/badge/:user/:repo", handlers.Badge())
 
 	// Listen for incoming connections
-	log.Fatal(app.Listen(":" + strconv.Itoa(*port)))
+	log.Fatal(app.ListenTLS(":443", "./ssl/cert.pem", "./ssl/cert.key"))
 }
