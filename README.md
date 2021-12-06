@@ -5,19 +5,19 @@
 
 在你个人网站的页脚或某个特定页面，按下述方式之一插入图片即可：
 
-#### HTML
+**HTML**
 
 ```html
 <img src="https://visitors.zhangjet.com/badge/YOUR_USERNAME/SET_UNIQUE_ID?unique=true" loading="lazy" alt="N/A">
 ```
 
-#### Markdown
+**Markdown**
 
 ```markdown
 ![N/A](https://visitors.zhangjet.com/badge/YOUR_USERNAME/SET_UNIQUE_ID?unique=true)
 ```
 
-#### 说明
+**说明**
 
 `YOUR_USERNAME` 设置成你的用户名（用以区分用户）
 
@@ -28,7 +28,7 @@
 
 服务器位于广州，国内连通性良好。
 
-####  The service is deployed on a server in southern China, and it may be slow to reponse in other areas in the world.
+**The service is deployed on a server in southern China, and it may be slow to reponse in other areas in the world.**
 
 
 ## 项目来源
