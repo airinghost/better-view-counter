@@ -30,7 +30,6 @@ func main() {
 
 	// Create new fiber instance
 	app := fiber.New(fiber.Config{
-		ProxyHeader: "X-Forwarded-For",
 		GETOnly: true, // Only allow GET requests
 	})
 
@@ -39,7 +38,7 @@ func main() {
 
 	// Limit requests 25 per minute with a minute cooldown
 	app.Use(limiter.New(limiter.Config{
-		Max:      60,
+		Max:      600,
 		Duration: time.Minute,
 	}))
 
