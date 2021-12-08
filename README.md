@@ -44,6 +44,10 @@
 
 本服务无法在 GitHub 的个人 Profile 页面或仓库页面正常计数，
 
-[![N/A](http://hits.dwyl.com/airinghost/better-view-counter.svg?style=flat-square)](https://github.com/dwyl/hits) ← 如有这项需求，可使用 [HITS @dwyl](https://github.com/dwyl/hits)，该项目生成的 Badge 可以在 GitHub 上正常显示
+如有这项需求，可使用下列两项服务： [HITS @dwyl](https://github.com/dwyl/hits) 或 [git-badges @Julian Pufler](https://github.com/puf17640/git-badges)
 
-[![N/A](https://visitor-badge-node-airinghost-airinghost.vercel.app/p/better-view-counter)](https://github.com/WangNingkai/visitor-badge-node) ← 还有，若仅需统计页面浏览量(PV)，那么你可以自己用 Vercel 很方便地部署这个项目： [visitor-badge-node @WangNingkai](https://github.com/WangNingkai/visitor-badge-node)
+[![N/A](http://hits.dwyl.com/airinghost/better-view-counter.svg?style=flat)](https://github.com/dwyl/hits) [![N/A](https://badges.pufler.dev/visits/airinghost/better-view-counter)](https://badges.pufler.dev)
+
+还有，若仅需统计页面浏览量(Page Views)，那么你可以自己用 Vercel 很方便地部署这个项目： [visitor-badge-node @WangNingkai](https://github.com/WangNingkai/visitor-badge-node)
+
+[![N/A](https://visitor-badge-node-airinghost-airinghost.vercel.app/p/better-view-counter)](https://github.com/WangNingkai/visitor-badge-node) 

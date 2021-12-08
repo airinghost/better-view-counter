@@ -24,7 +24,7 @@ var badgeSVG = trim(`
 	</clipPath>
 	<g clip-path="url(#r)">
 		<rect width="69" height="20" fill="#555"/>
-		<rect x="69" width="31" height="20" fill="#97ca00"/>
+		<rect x="69" width="31" height="20" fill="#06c"/>
 		<rect width="{{rectWidth}}" height="20" fill="url(#s)"/>
 	</g>
 	<g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110">
