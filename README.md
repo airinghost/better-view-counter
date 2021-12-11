@@ -1,9 +1,14 @@
 
-# 独立访客(UV)计数服务
+# 独立访客(IP)计数服务
 
-## 用法
+A visitor badge counting unique IP
+
+
+## 用法 Usage
 
 在你个人网站的页脚或某个特定页面，按下述方式之一插入图片即可：
+
+Insert image into your personal website: 
 
 **HTML**
 
